@@ -12,6 +12,10 @@
     display: flex;
 }
 
+.eclat-topbar-ribbon {
+    font-size: 1.2em;
+}
+
 #Topbar_Logo_Shield {
     width: 25%;
     height: 100%;
