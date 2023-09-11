@@ -1,0 +1,259 @@
+
+.content-hs-displayed { display: none; }
+
+
+/* Topbar Logo */
+.eclat-topbar-logo-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: calc(100% - 1px);
+    width: 30%;
+    display: flex;
+}
+
+#Topbar_Logo_Shield {
+    width: 25%;
+    height: 100%;
+    background-size: 60%;
+}
+
+#Topbar_Logo_Shield {
+    width: 25%;
+    height: 100%;
+    background-image: url(../images/cropped/ECLAT_Security_Logo_Shield.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+#Topbar_Logo_Name {
+    height: 50%;
+    background-image: url(../images/cropped/ECLAT_Logo_Main.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Topbar_Logo_Subtitle {
+    height: 50%;
+    background-image: url(../images/cropped/ECLAT_Logo_Subtitle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.eclat-licensing-title {
+    width: 20%;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    padding-left: 2px;
+    border-bottom: 1px solid var(--accent-color);
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Information Area */
+.information-area-innerwrapper {
+    display: flex;
+}
+
+.information-area-panel {
+    flex-direction: column;
+}
+
+.information-carousel-coverage { 
+    width: 60%;
+}
+
+.information-blurb-text p {
+    font-size: 13.5pt;
+}
+
+#information-blurb {
+    width: 40%;
+}
+
+.media-area-wrapper {
+    margin-top: 1.5em;
+}
+
+/* Media Area Code */
+.media-area-innerwrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.media-area-container {
+    flex-direction: column;
+}
+
+/* Media Button Swapper */
+#media-buttons-area {
+    width: 10%;
+}
+
+.media-area-button-switcher {
+    position: relative;
+    padding-top: 100%;
+    border: 1px solid var(--primary-color);
+}
+
+.media-area-button-switcher:hover {
+    cursor: pointer;
+}
+
+.media-area-button-inactive {
+    background-color: var(--primary-color);
+}
+
+.media-area-button-selected {
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.media-area-button-spacer {
+    
+}
+
+.media-area-button-text {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Titillium Web';
+}
+
+.media-area-button-inactive .media-area-button-text {
+    color: var(--tertiary-color);
+}
+
+.media-area-button-selected .media-area-button-text {
+    color: var(--accent-color2);
+    font-weight: bolder;
+}
+
+/* SERVICES SECTION (LIVE) - BEGIN */
+
+.live-services-showcase-wrapper {
+    margin-top: 1.4em;
+}
+
+.live-services-showcase-innerwrapper {
+    width: inherit;
+}
+
+.live-services-panel {
+    flex-direction: column;
+    position: relative;
+    width: 25%;
+}
+
+
+/*
+ * ==================================
+ * ABOUT PAGE STYLING
+ * S T A R T
+ * ==================================
+ */
+
+.about-overlay-wrapper {
+    padding-left: 10%;
+}
+
+.about-information-panel {
+    align-self: center;
+    height: 60%;
+    width: 20%;
+    border: 1px solid blue;
+}
+
+.about-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-main-info-panel-wrapper {
+    width: 60%;
+    height: 80vh;
+    border-right: 1px solid var(--primary-color);
+}
+
+.about-main-info-panel-innerwrapper {
+    width: 80%;
+}
+
+.about-main-info-panel-innerwrapper h1 {
+    width: 60%;
+}
+
+.about-staff-section-wrapper {
+    width: 30%;
+}
+
+.staff-bio {
+    font-size: 12.5pt;
+}
+
+/*
+ * ==================================
+ * ABOUT PAGE STYLING
+ * E N D
+ * ==================================
+ */
+
+
+/*
+ * ==================================
+ * TRAINING PAGE STYLING
+ * S T A R T
+ * ==================================
+ */
+
+ .training-section-innerwrapper {
+    width: 50%;
+}
+
+.training-header p {
+}
+
+.training-section-service-close-button {
+    font-size: 1.2em;
+}
+
+ /*
+ * ==================================
+ * TRAINING PAGE STYLING
+ * E N D 
+ * ==================================
+ */
+
+
+
+
+ .security-section-innerwrapper {
+    width: 70%;
+}
+
+.security-section-service-selections {
+    width: 60%;
+    font-size: 1.4em;
+}
+
+.security-section-heading-portion h1 {
+    font-size: 3.0em;
+}
+
+.security-services-details-area {
+    width: 50%;
+}
+
+.security-services-details-title {
+    font-size: 2.0em;
+}
