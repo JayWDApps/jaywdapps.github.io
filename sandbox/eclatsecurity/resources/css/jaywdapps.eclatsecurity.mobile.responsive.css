@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+.navigation-menu-innerwrapper > div {
+    font-size: 0.8em;
+}
+
 #Topbar_Logo_Shield {
     width: 25%;
     background-size: 70%;
