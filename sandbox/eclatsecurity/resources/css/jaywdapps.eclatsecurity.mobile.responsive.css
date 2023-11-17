@@ -4,6 +4,11 @@
  * TOPBAR AREA
 */
 
+.topbar-context-menu {
+    width: 50%;
+    
+}
+
 /* Topbar */
 .eclat-topbar-logo-wrapper {
     width: 70%;

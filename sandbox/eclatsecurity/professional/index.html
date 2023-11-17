@@ -22,17 +22,22 @@
 
                 <div class="eclat-topbar-ribbon eclat-topbar-ribbon-golden eclat-span-innercontainerwidth">
                     <a href="../index.html" id="Eclat_Main_Link" class="block-span content-fs-displayed"></a>
-                    <a href="../index.html" class="content-hs-displayed" style="text-decoration: none;"><img src="../resources/images/cropped/ECLAT_Security_Logo_Shield.png" height="55" /> <span style="display: inline-block; padding-left: 10px;"></span> <img src="../resources/images/cropped/ECLAT_Logo_Subtitle.png" width="650"/></a> .
+                    <a href="../index.html" class="content-hs-displayed" style="text-decoration: none;"><img src="../resources/images/cropped/ECLAT_Security_Logo_Shield.png" height="80" /> <span style="display: inline-block; padding-left: 10px;"></span> <img src="../resources/images/cropped/ECLAT_Logo_Subtitle_2.png" width="650"/></a> .
                 </div>
                 <div class="eclat-topbar-ribbon eclat-topbar-ribbon-dark eclat-span-innercontainerwidth">
                     <nav class="navigation-menu-wrapper">
                         <div class="navigation-menu-innerwrapper">
-                            <div class="box-sized-content"><a href="../about/index.html">About Us</a></div>
-                            <div class="box-sized-content"><a href="../training/index.html">Training</a></div>
-                            <div class="box-sized-content"><a href="../security/index.html">Security Services</a></div>
-                            <div class="box-sized-content"><a href="../professional/index.html">Professional Services</a></div>
-                            <div class="box-sized-content"><a href="../investigations/index.html">Investigations</a></div>
+                                <div class="box-sized-content"><a href="../about/index.html">About Us</a></div>
+                                <div class="box-sized-content"><a href="../training/index.html">Training</a></div>
+                                <div class="box-sized-content"><a href="../security/index.html">Security Services</a></div>
+                                <div class="box-sized-content"><a href="../professional/index.html">Professional Services</a></div>
+                                <div class="box-sized-content"><a href="../investigations/index.html">Investigations</a></div>
                         </div>
+                        <!--<div class="navigation-menu-innerwrapper content-hs-displayed">
+                            <div style="cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 30 30" style="fill:#FFFFFF;"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path></svg>
+                            </div>
+                        </div>-->
                     </nav>
                 </div>
             </div>
@@ -48,12 +53,10 @@
                 
                 <div class="security-section-services-area">
                     <select id="Security_Section_Service_Selection" class="security-section-service-selections">
-                        <option>Threat & Vulnerability Assessment</option>
-                        <option>Policy & Procedure Review & Development</option>
-                        <option>Security Audits</option>
-                        <option>Security Training</option>
-                        <option>Security Master Planning</option>
-                        <option>Securing Intellectual Property</option>
+                        <option>(Choose a service)</option>
+                        <option data-desc="1">Policy & Procedure Review & Development</option>
+                        <option data-desc="2">Security Audits</option>
+                        <option data-desc="3">Securing Intellectual Property</option>
                     </select>
                 </div>
 
@@ -99,4 +102,23 @@
     <script src="../resources/javascript/jaywdapps.eclatsecurity.v1-01.js"></script>
     
     <script src="../resources/javascript/jaywdapps.eclatsecurity.security.js"></script>
+
+    <script>
+        var descriptions = [
+        "Policy & Procedure Review & Development",
+        `<p>Our Policy and Procedure Review and Development services are designed to ensure that your organization operates efficiently, effectively, and in compliance with industry regulations and best practices. We specialize in crafting, revising, and enhancing policies and procedures to align with your organization's goals and values.</p>
+
+        <p>Contact us today to discuss how our services can help you enhance your policies and procedures, ensuring the smooth and compliant operation of your organization.</p>`,
+
+        "Security Audits",
+        `<p>Security Audits are comprehensive assessments of an organization's security protocols, practices, and infrastructure. These audits serve as a vital tool to identify vulnerabilities, evaluate risks, and ensure the effectiveness of security measures, ultimately safeguarding assets and reducing security threats.</p>
+        
+        <p>Contact us today to schedule a Security Audit and fortify your organization's security defenses.</p>`,
+
+        "Securing Intellectual Property",
+        `<p>Securing Intellectual Property is a critical process that safeguards the intangible assets of your organization, including inventions, innovations, designs, and creative works. It involves comprehensive strategies and measures to protect your intellectual capital from theft, unauthorized use, and infringement.</p>
+        
+        <p>Contact us today to discuss how our Securing Intellectual Property services can help you safeguard your organization's valuable innovations and creative works.</p>`,
+        ];
+    </script>
 </html>

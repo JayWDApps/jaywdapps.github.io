@@ -607,11 +607,13 @@ html, body {
     text-align: center;
     font-family: 'Open Sans';
     margin-bottom: 2.5vh;
+    color: var(--secondary-color);
 }
 
 .training-section-tabling {
     display: block;
     font-family: 'Open Sans';
+    background-color: rgb(248, 248, 248);
 }
 
 .training-section-tabling.odd-styled-tss-container {
@@ -651,6 +653,7 @@ html, body {
 .training-section-service-description-extended {
     position: relative;
     display: none;
+    background-color: rgb(248, 248, 248);
 }
 
 
@@ -683,10 +686,13 @@ html, body {
 }
 
 .training-section-service-extended-desc-text {
-    width: 95%;
-    float: right;
+    width: 100%;
     font-family: 'Open Sans';
     padding: 10px;
+}
+
+.training-section-service-extended-desc-text h2 {
+    font-size: 1.25em;
 }
 
 .shown-training-service {
@@ -752,6 +758,7 @@ html, body {
     font-family: 'Open Sans';
     border: 1px solid var(--accent-color);
     margin-bottom: 15vh;
+    background-color: rgb(248, 248, 248);
 }
 
 .security-services-details-title {
@@ -764,6 +771,7 @@ html, body {
     margin-top: 5px;
     padding: 10px;
     display: none;
+    
 }
 
 .security-services-details-description p:first-of-type {
