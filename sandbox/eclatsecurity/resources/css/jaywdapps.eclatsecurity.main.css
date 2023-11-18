@@ -45,14 +45,14 @@ html, body {
     margin: 0;
     background-repeat: repeat;
     position: relative;
-    background-image: url(../images/patterns/light-wool.png);
-    background-color: var(--tertiary-color);
+    background-image: url(../images/patterns/subtle-grey.png);
+    background-color: rgb(248, 248, 248);
 }
 
 #eclat-overlay {
     height: 100%;
     width: 100%;
-    background-image: url(../images/patterns/subtle_carbon.png);
+    background-image: url(../images/patterns/subtle-grey.png);
     position: absolute;
     z-index: 1000;
 }
@@ -62,7 +62,6 @@ html, body {
     background-repeat: no-repeat;
     width: 500px;
     height: 500px;
- 
     margin: 0 auto;
     margin-top: 5vh;
     background-size: 100%;
@@ -349,6 +348,73 @@ html, body {
     transform: translate(-50%,-50%);
 }
 
+/* E'CLAT SITE DESCRIPTIONS - BEGIN */
+.main-page-descriptions-wrapper {
+    overflow: auto;
+}
+
+.main-page-descriptions-innerwrapper {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    width: 80%;
+    overflow: auto;
+}
+
+.main-page-description-title {
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    border-bottom: 5px solid var(--accent-color);
+    padding: 6px;
+    padding-bottom: 10px;
+    margin-bottom: 1vh;
+}
+
+.main-page-description-text {
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.main-page-descriptions-innerwrapper.mpdi-even {
+    float: right;
+    margin-bottom: 10vh;
+    
+}
+
+.main-page-descriptions-innerwrapper.mpdi-even > .main-page-description-title {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.contact-us-now {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 248, 248);
+    border: 1px solid var(--accent-color);
+    border-left: 5px solid var(--accent-color);
+}
+
+.contact-us-image {
+    width: 15%;
+}
+
+.contact-us-text { 
+    padding: 10px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 1.0em;
+    width: 65%;
+}
 
 /* SERVICES SECTION (LIVE) - BEGIN */
 
@@ -363,6 +429,7 @@ html, body {
     width: 25%;
     border-top: 1px solid rgb(97, 97, 97);
     background-size: 100%;
+    cursor: pointer;
 }
 
 .live-services-panel:nth-child(odd) {

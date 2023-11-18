@@ -173,17 +173,40 @@ function getEclatSymbolSize() {
 }
 
 // Invoking function that pauses or plays the main video on the site.
-function PauseOrPlayVideo(vid) {
+function PauseOrPlayVideo() {
     var vidIsPlaying;
+    var vid = $("video");
     
-    vidIsPlaying = (vid.currentTime > 0 && !vid.paused && !vid.ended && vid.readyState > 2);
+    //vidIsPlaying = (vid.currentTime > 0 && !vid.paused && !vid.ended && vid.readyState > 2);
 
-    if(!vidIsPlaying){
-        vid.play();
-        $(".media-paused-container").hide();
-    }
-    else{
+    if($(".media-paused-container").length == 0) 
+    {
         vid.pause();
         $(".media-paused-container").show();
     }
+    else 
+    {
+        vid.play();
+        $(".media-paused-container").hide();
+    }
 }
+
+$(".live-services-panel").click(function() {
+
+    switch($(this).attr("id")) 
+    {
+        case "Live_Service_Security_Services":
+            location.href = "./security/index.html";
+            break;
+        case "Live_Service_Concierge_Services":
+            location.href = "./professional/index.html";
+            break;
+        case "Live_Service_Training_Services":
+            location.href = "./training/index.html";
+            break;
+        case "Live_Service_Investigations_Services":
+            location.href = "./investigations/index.html";
+            break;
+    }
+
+});

@@ -143,6 +143,15 @@
     font-weight: bolder;
 }
 
+
+.main-page-descriptions-innerwrapper {
+    width: 55%;
+}
+
+.contact-us-now {
+    width: 35%;
+}
+
 /* SERVICES SECTION (LIVE) - BEGIN */
 
 .live-services-showcase-wrapper {

@@ -65,6 +65,14 @@
     font-size: 11pt; 
 }
 
+.main-page-descriptions-innerwrapper {
+    width: 80%;
+}
+
+.contact-us-now {
+    width: 70%;
+}
+
 /* Media Area Code */
 .media-area-wrapper {
     margin-top: -1px;
