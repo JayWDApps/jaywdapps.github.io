@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+}
+
+/* 
+ * ROOT variables used for redundant styling.
+*/
+:root {
+    --primary-color-one: #C0C0C0;
+    --secondary-color-one: #FFD700;
+    --tertiary-color-one: #FCA027;
+
+    /*
+    --accent-color-one: ;
+
+    --primary-color-two: ;
+    --secondary-color-two: ;
+    --tertiary-color-two: ;
+    --accent-color-two: ;
+    */
+}
+
+body {
+    
+}
+
+/*
+ * Division-level styling, such as box-sizing and flex behaviors.
+*/
+div { box-sizing: border-box; }
+
+/*
+ * Top-level site wrapper, which contains the entirety of the content within. 
+ */
+#sitewrapper {
+    width: 100%;
+}
+
+.content-root-field {
+    height: 100vh;
+}
+
+#home-section { 
+    background-image: url('../images/testing/generated_woman_with_camera_overlay1.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section-innercontent-holder {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.home-section-innercontent-logo, .home-section-innercontent-footer {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+ * Body section of the home area.
+*/
+.home-section-innercontent-body {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-body-subsection {
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-body-subsection > div {
+    display: flex;
+    align-items: center;
+}
+
+.body-subsection-image {
+    justify-content: center;
+    width: 30%;
+}
+
+.subsection-image-container-circle {
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+#about-image { 
+    background-image: url(../images/testing/body-image1.png);
+}
+
+#portfolio-image { 
+    background-image: url(../images/testing/body-image_2.png);
+}
+
+#contact-image {
+    background-image: url(../images/testing/body-image_3.png);
+}
+
+.body-subsection-text {
+    width: 70%;
+    padding-left: 10px;
+}
+
+/*
+.home-section-innercontent-footer {
+}
+*/
+
+.coming-soon-banner-container {
+
+}
+
+
+/*
+ * DO NOT UNCOMMENT YET. Mostly to remind myself. Because I'm stupid. -Jay
+*/
+/*.temporary-content {
+    display: none;
+}*/
